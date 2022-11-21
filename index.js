@@ -33,7 +33,7 @@ function homeAddThreePoints() {
     homeEl.textContent = homeCount
 }
 
-var time=24*60,r=document.getElementById('countdown'),tmp=time;
+var time=12*60,r=document.getElementById('countdown'),tmp=time;
 
 setInterval(function(){
     var c=tmp--,m=(c/60)>>0,s=(c-m*60)+'';
